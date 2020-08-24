@@ -18,8 +18,8 @@ function saveReview(reviewLeft, reviews) {
   }
 };
 
-function calculatePageCount() {
-
+function calculatePageCount(bookTitle) {
+  return bookTitle.length * 20
 }
 
 module.exports = {
