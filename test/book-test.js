@@ -34,7 +34,7 @@ describe("book.js", function () {
       assert.isFunction(buildMainCharacter);
     });
 
-    it.skip("should create a character object", function () {
+    it("should create a character object", function () {
       var ghoulCharacter = buildMainCharacter("Vassya", 16, "she/her");
 
       assert.equal(ghoulCharacter.name, "Vassya");

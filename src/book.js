@@ -1,9 +1,15 @@
+var character;
+
 function createTitle(title) {
   return `The ${title}`;
 }
 
-function buildMainCharacter() {
-  
+function buildMainCharacter(name, age, pronouns) {
+  return character = {
+    name: name,
+    age: age,
+    pronouns: pronouns
+  };
 }
 
 module.exports = {
